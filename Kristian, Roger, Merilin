@@ -26,5 +26,4 @@ dünaamiliselt
 Linked listis pead alustama algusest ja jõudma otsitavani.
 3. Arrays saad leida asju kiirelt ( kuna jõuad kohe otsitavani), linked linked omas pead järjest minema, kuni jõuad otsitavani.
 4. Kustutamine arrays võtab aega, Linked listis kiirelt kuna on dünaamiline ja saab jooksvalt muuta suurust.
-5. Mälu kasutus arrayl kompileerimisel(aga võib olla suurem, kuna listi pikkus määratud)
-ja linkedil(kasutatakse täpselt niipalju mälu kui vaja) käivituse ajal
+5. Mälu kasutus arrayl kompileerimisel ja linkedil käivituse ajal
