@@ -20,8 +20,7 @@ saab lisada .add(), eemaldada .remove(index), otsida .contains() -tagastab true,
 
 arraylist vs linkedlist:
 
-1. Arrays on andmed struktueeritud järjest,ehk indekseeritud ja Linked listis on need 
-dünaamiliselt
+1. Arrays on andmed struktueeritud dünaamiliselt(indekseeritud) ja Linked listis on need omavahel seoses (nodes)
 2. Asju leiad arraylistis indeksite järgi (ehk saad kirjutada muutuja nime indeksiga) 
 Linked listis pead alustama algusest ja jõudma otsitavani.
 3. Arrays saad leida asju kiirelt ( kuna jõuad kohe otsitavani), linked linked omas pead järjest minema, kuni jõuad otsitavani.
