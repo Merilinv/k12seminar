@@ -1,0 +1,19 @@
+Loomine: 
+
+kasutamine: 
+demo:
+List<Integer> list = new ArrayList<Integer>();
+list.add(0, 1);  // lisab 1 kohale 0 
+
+saab lisada .add(), eemaldada .remove(index), otsida .contains() -tagastab true, kui listis on olemas selline element / .get(index) - tagastab andud positsioonil olema elemendi, suurus size() - tagastab elementide arvu listis jne.
+
+arraylist vs linkedlist:
+
+1. Arrays on andmed struktueeritud järjest,ehk indekseeritud ja Linked listis on need 
+dünaamiliselt
+2. Asju leiad arraylistis indeksite järgi (ehk saad kirjutada muutuja nime indeksiga) 
+Linked listis pead alustama algusest ja jõudma otsitavani.
+3. Arrays saad leida asju kiirelt ( kuna jõuad kohe otsitavani), linked linked omas pead järjest minema, kuni jõuad otsitavani.
+4. Kustutamine arrays võtab aega, Linked listis kiirelt kuna on dünaamiline ja saab jooksvalt muuta suurust.
+5. Mälu kasutus arrayl kompileerimisel(aga võib olla suurem, kuna listi pikkus määratud)
+ja linkedil(kasutatakse täpselt niipalju mälu kui vaja) käivituse ajal
