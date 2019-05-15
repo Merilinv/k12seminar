@@ -1,5 +1,16 @@
 Loomine: 
 
+Klassi nimi vastavalt listi tüübile, listi elementide muutuja tüüp, muutuja nimi, new, klassi nime kordus, <tüüp> või lihtsalt <> ();
+
+ArrayList<Type> str = new ArrayList<Type>();
+
+initsialiseerimine:
+add(E e) või add(int index, E element)
+
+str.add("Geeks");
+str.add("for");
+str.add("Geeks");
+
 kasutamine: 
 demo:
 List<Integer> list = new ArrayList<Integer>();
